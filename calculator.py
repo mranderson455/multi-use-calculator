@@ -38,6 +38,7 @@ def get_input():
         get_input()
     elif cmd == "dance":
         print("(づ◕‿◕)づ")
+        print("dasda")
         print("")
         get_input()
     elif cmd == "h" or cmd == "help":
@@ -87,21 +88,30 @@ gl - grams to liters
                 get_input()
         if x == "2":
             print("Coin toss!")
+            print("O - Heads  0 - Tails")
+            print("")
             time.sleep(0.2)
             print(".")
             time.sleep(0.2)
-            print("   .")
-            time.sleep(0.2)
-            print("       .")
-            time.sleep(0.2)
-            print("   .")
+            print(".")
             time.sleep(0.2)
             print(".")
-            coin = random.randint(1, 2)
-            if coin == 1:
+            print("")
+            time.sleep(0.2)
+            coin = random.randint(1, 100)
+            if coin >= 2:
+              print("0")
+              print("")
               print("Heads!")
               print("")
+            elif coin == 1:
+              print("|")
+              print("")
+              print("...Side?!")
+              print("")
             else:
+              print("O")
+              print("")
               print("Tails!")
               print("")
             get_input()
