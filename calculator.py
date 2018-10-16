@@ -2,6 +2,7 @@ import random
 import time
 from os import system, name
 import periodictable as pd
+import time
 
 ab_num = 6.02e23
 mol_liter = 22.4
@@ -86,20 +87,30 @@ gl - grams to liters
                 print("")
                 get_input()
         if x == "2":
-            print("game 2")
-            print("")
+            print("Coin toss!")
+            time.sleep(0.2)
+            print(".")
+            time.sleep(0.2)
+            print("   .")
+            time.sleep(0.2)
+            print("       .")
+            time.sleep(0.2)
+            print("   .")
+            time.sleep(0.2)
+            print(".")
+            coin = random.randint(1, 2)
+            if coin == 1:
+              print("Heads!")
+              print("")
+            else:
+              print("Tails!")
+              print("")
             get_input()
     elif cmd == "rng" or cmd == "RNG":
         x = input("From: ")
         y = input("To: ")
         z = random.randint(int(x), int(y))
         print(str(z))
-        print("")
-        fr = int(input("From: "))
-        to = int(input("To: "))
-        print("")
-        y = random.randint(fr, to)
-        print(y)
         print("")
         get_input()
     elif cmd == "mm" or cmd == "MM" or cmd == "mass":
@@ -154,6 +165,5 @@ gl - grams to liters
         print("Invalid command.")
         print("")
         get_input()
-
 
 get_input()
