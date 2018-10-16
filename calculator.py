@@ -7,22 +7,21 @@ import time
 ab_num = 6.02e23
 mol_liter = 22.4
 
-
 def get_input():
     cmd = input("::: ")
-    if cmd == "a" or cmd == "A" or cmd == "add" or cmd == "addition":
+    if cmd == "a" or cmd == "A" or cmd == "add" or cmd == "addition" or cmd == "+":
         x = float(input("Num 1: "))
         y = float(input("Num 2: "))
         print(x + y)
         print("")
         get_input()
-    elif cmd == "s" or cmd == "S" or cmd == "subtraction" or cmd == "subtract":
+    elif cmd == "s" or cmd == "S" or cmd == "subtraction" or cmd == "subtract" or cmd == "-":
         x = float(input("Num 1: "))
         y = float(input("Num 2: "))
         print(x - y)
         print("")
         get_input()
-    elif cmd == "d" or cmd == "D" or cmd == "divide" or cmd == "division":
+    elif cmd == "d" or cmd == "D" or cmd == "divide" or cmd == "division" or cmd == "/" or cmd == "\\":
         x = float(input("Num 1: "))
         y = float(input("Num 2: "))
         z1 = int(x / y)
@@ -31,7 +30,7 @@ def get_input():
         print(str(z2) + " or " + str(z1) + " r" + str(a))
         print("")
         get_input()
-    elif cmd == "m" or cmd == "M" or cmd == "multiply" or cmd == "multiplication":
+    elif cmd == "m" or cmd == "M" or cmd == "multiply" or cmd == "multiplication" or cmd == "*":
         x = float(input("Num 1: "))
         y = float(input("Num 2: "))
         print(x * y)
