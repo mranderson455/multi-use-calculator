@@ -7,26 +7,26 @@ It works on a command based system with inputs from the user.
 <hr>
 
 Commands:
-<li>
-<ul>h - help</ul>
-<ul>dance - do a little dance :)</ul>
-</li>
-
+<ul>
+<li>h - help</li>
+<li>dance - do a little dance :)</li>
+</ul>
+<br>
 Operators:
-<li>
-<ul>a - add</ul>
-<ul>s - subtract</ul>
-<ul>m - multiply</ul>
-<ul>d - divide</ul>
-</li>
-
+<ul>
+<li>a - add</li>
+<li>s - subtract</li>
+<li>m - multiply</li>
+<li>d - divide</li>
+</ul>
+<br>
 Chemistry:
-<li>
-<ul>mm - calculate molar mass of an element</ul>
-<ul>fg - convert from F.U to grams</ul>
-<ul>gf - convert from grams to F.U</ul>
-<ul>fl - convert from F.U to liters</ul>
-<ul>lf - convert from liters to F.U</ul>
-<ul>gl - convert from grams to liters</ul>
-<ul>lg - convert from liters to grams</ul>
-</li>
+<ul>
+<li>mm - calculate molar mass of an element</li>
+<li>fg - convert from F.U to grams</li>
+<li>gf - convert from grams to F.U</li>
+<li>fl - convert from F.U to liters</li>
+<li>lf - convert from liters to F.U</li>
+<li>gl - convert from grams to liters</li>
+<li>lg - convert from liters to grams</li>
+</ul>
