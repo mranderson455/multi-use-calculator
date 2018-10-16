@@ -5,7 +5,7 @@ A calculator with basic and advanced functions related to operations and chemist
 It works on a command based system with inputs from the user.
 
 Commands:
-h - help
+/nh - help
 dance - do a little dance :)
 
 Operators:
