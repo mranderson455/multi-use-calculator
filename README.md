@@ -8,25 +8,27 @@ It works on a command based system with inputs from the user.
 
 Commands:
 <ul>
-<li>h - help</li>
-<li>dance - do a little dance :)</li>
+  <li>h - help</li>
+  <li>dance - do a little dance :)</li>
+  <li>l - load a game/mini-program (1, 2, etc...)</li>
+  <li>rng - generate a random number between x and y (ints only)</li>
 </ul>
 <br>
 Operators:
 <ul>
-<li>a - add</li>
-<li>s - subtract</li>
-<li>m - multiply</li>
-<li>d - divide</li>
+  <li>a - add</li>
+  <li>s - subtract</li>
+  <li>m - multiply</li>
+  <li>d - divide</li>
 </ul>
 <br>
 Chemistry:
 <ul>
-<li>mm - calculate molar mass of an element</li>
-<li>fg - convert from F.U to grams</li>
-<li>gf - convert from grams to F.U</li>
-<li>fl - convert from F.U to liters</li>
-<li>lf - convert from liters to F.U</li>
-<li>gl - convert from grams to liters</li>
-<li>lg - convert from liters to grams</li>
+  <li>mm - calculate molar mass of an element</li>
+  <li>fg - convert from F.U to grams</li>
+  <li>gf - convert from grams to F.U</li>
+  <li>fl - convert from F.U to liters</li>
+  <li>lf - convert from liters to F.U</li>
+  <li>gl - convert from grams to liters</li>
+  <li>lg - convert from liters to grams</li>
 </ul>
