@@ -86,7 +86,7 @@ gl - grams to liters
                 print("Invalid number, you lose!")
                 print("")
                 get_input()
-        if x == "2":
+        elif x == "2":
             print("Coin toss!")
             print("O - Heads  0 - Tails")
             print("")
@@ -115,6 +115,61 @@ gl - grams to liters
               print("Tails!")
               print("")
             get_input()
+        elif x == "3":
+                delay = input("Press enter to roll the dice!")
+                rand = random.randint(1, 6)
+                if rand == 1:
+                    print('''
+ _______
+/       \\
+|   O   |
+\\_______/''')
+                    print("")
+                    get_input()
+                elif rand == 2:
+                    print('''
+ _______
+/     O \\
+|       |
+\\_O_____/''')
+                    print("")
+                    get_input()
+                elif rand == 3:
+                    print('''
+ _______
+/     O \\
+|   O   |
+\\_O_____/''')
+                    print("")
+                    get_input()
+                elif rand == 4:
+                    print('''
+ _______
+/ O   O \\
+|       |
+\\_O___O_/''')
+                    print("")
+                    get_input()
+                elif rand == 5:
+                    print('''
+ _______
+/ O   O \\
+|   O   |
+\\_O___O_/''')
+                    print("")
+                    get_input()
+                elif rand == 6:
+                    print('''
+ _______
+/ O   O \\
+| O   O |
+\\_O___O_/''')
+                    print("")
+                    get_input()
+                else:
+                    print("wtf how did you even do that???")
+                    print("")
+                    get_input()
     elif cmd == "rng" or cmd == "RNG":
         x = input("From: ")
         y = input("To: ")
