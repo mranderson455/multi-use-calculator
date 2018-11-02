@@ -19,7 +19,7 @@ Operators:
   <li>a - add</li>
   <li>s - subtract</li>
   <li>m - multiply</li>
-  <li>d - divide</li>
+  <li>d - divide (outputs quotient and remainder)</li>
 </ul>
 <br>
 Chemistry:
@@ -35,7 +35,7 @@ Chemistry:
 <br>
 Load ("l" command):
 <ul>
-  <li>1 - Guessing game (choose two numbers, guess one between them)</li>
-  <li>2 - Coin flip</li>
-  <li>3 - Dice toss</li>
+  <li>1 - Guessing game (choose two ints, guess one between them)</li>
+  <li>2 - Coin flip (rng between 1 and 2)</li>
+  <li>3 - Dice toss (rng between 1 and 6)</li>
 </ul>
