@@ -32,3 +32,10 @@ Chemistry:
   <li>gl - convert from grams to liters</li>
   <li>lg - convert from liters to grams</li>
 </ul>
+<br>
+Load ("l" command):
+<ul>
+  <li>1 - Guessing game (choose two numbers, guess one between them)</li>
+  <li>2 - Coin flip</li>
+  <li>3 - Dice toss</li>
+</ul>
