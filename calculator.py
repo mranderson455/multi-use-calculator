@@ -8,12 +8,12 @@ ab_num = 6.02e23
 mol_liter = 22.4
 
 print("""
-                  _____      _            _       _              ____   _____ 
-                 / ____|    | |          | |     | |            / __ \ / ____|
-                | |     __ _| | ___ _   _| | __ _| |_ ___  _ __| |  | | (___  
-                | |    / _` | |/ __| | | | |/ _` | __/ _ \| '__| |  | |\___ \ 
-                | |___| (_| | | (__| |_| | | (_| | || (_) | |  | |__| |____) |
-Booting up...    \_____\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   \____/|_____/ 
+            _____      _            _       _              ____   _____ 
+           / ____|    | |          | |     | |            / __ \ / ____|
+          | |     __ _| | ___ _   _| | __ _| |_ ___  _ __| |  | | (___  
+          | |    / _` | |/ __| | | | |/ _` | __/ _ \| '__| |  | |\___ \ 
+          | |___| (_| | | (__| |_| | | (_| | || (_) | |  | |__| |____) |
+           \_____\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   \____/|_____/ 
 """)
 print(".")
 time.sleep(random.random() * 1.5)
@@ -61,11 +61,14 @@ def get_input():
         print('''Commands:
 h - help
 dance - do a lil dance :)
+rng - Random number generator
+
 Operators: 
 a - add
 s - subtract
 d - divide
 m - multiply
+
 Chemistry: 
 mm - calculate molar mass of element
 gf - grams to F.U
@@ -74,6 +77,11 @@ lf - liters to F.U
 fl - F.U to liters
 lg - liters to grams
 gl - grams to liters
+
+Load:
+1 - Guessing game
+2 - Coin flip
+3 - Dice roll
         ''')
         get_input()
     elif cmd == "l" or cmd == "L" or cmd == "load":
